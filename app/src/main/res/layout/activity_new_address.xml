@@ -58,7 +58,6 @@
         android:layout_marginLeft="90dp"
         android:text="例：16号楼501室"
         android:textSize="24dp"
-        android:textColor="#000000"
         />
     <View
         android:layout_width="match_parent"
@@ -67,6 +66,123 @@
         android:background="#D5D5D5"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系人:"
+        android:layout_marginTop="150dp"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        android:text="请填写收货人的姓名"
+        android:textSize="24dp"
+        />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:layout_marginTop="190dp"
+        android:background="#D5D5D5"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="先生"
+            android:checked="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="100dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女士"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:layout_marginTop="240dp"
+        android:background="#D5D5D5"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号:"
+        android:layout_marginTop="250dp"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="90dp"
+        android:text="请填写收货手机号码"
+        android:textSize="24dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:layout_marginTop="290dp"
+        android:background="#D5D5D5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标签:"
+        android:layout_marginTop="300dp"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bg_btn1"
+        android:text="家"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bg_btn1"
+        android:text="公司"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/bg_btn1"
+        android:text="学校"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存地址"
+        android:background="#ffcc33"
+        android:layout_marginTop="380dp"/>
 </RelativeLayout>
