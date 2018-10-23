@@ -39,6 +39,7 @@
         android:layout_marginTop="15dp"
         android:textSize="22sp"
         android:textColor="#000000"/>
+
     <EditText
         android:id="@+id/ed_1"
         android:layout_width="match_parent"
@@ -52,10 +53,8 @@
         android:paddingLeft="10dp"
         />
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
+        style="@style/View_1"
         android:layout_marginTop="95dp"
-        android:background="#D5D5D5"
         />
     <TextView
         android:id="@+id/text_4"
@@ -78,11 +77,11 @@
         android:layout_marginTop="100dp"
         android:drawableLeft="@drawable/icon_location1"
         />
+
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:layout_marginTop="140dp"
-        android:background="#D5D5D5"/>
+        style="@style/View_1"
+        android:layout_marginTop="140dp" />
+
     <TextView
         android:id="@+id/text_6"
         android:layout_width="wrap_content"
@@ -93,77 +92,58 @@
         android:drawableLeft="@drawable/icon_location"
         />
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextView_1"
         android:text="青苹果商务广场"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="22sp"
-        android:textColor="#000000"/>
+        />
+
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:layout_marginTop="240dp"
-        android:background="#D5D5D5"/>
+        style="@style/View_1"
+        android:layout_marginTop="240dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextView_1"
         android:text="胜丰商贸园"
         android:layout_marginTop="250dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="22sp"
-        android:textColor="#000000"/>
+        />
+
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:layout_marginTop="290dp"
-        android:background="#D5D5D5"/>
+        style="@style/View_1"
+        android:layout_marginTop="290dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextView_1"
         android:text="迪赛青苹果"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="22sp"
-        android:textColor="#000000"/>
+        />
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:layout_marginTop="340dp"
-        android:background="#D5D5D5"/>
+        style="@style/View_1"
+        android:layout_marginTop="340dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextView_1"
         android:text="真和大酒店"
         android:layout_marginTop="350dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="22sp"
-        android:textColor="#000000"/>
+        />
+
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:layout_marginTop="390dp"
-        android:background="#D5D5D5"/>
+        style="@style/View_1"
+        android:layout_marginTop="390dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextView_1"
         android:text="真和大厦"
         android:layout_marginTop="400dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="22sp"
-        android:textColor="#000000"/>
+        />
+
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:layout_marginTop="440dp"
-        android:background="#D5D5D5"/>
+        style="@style/View_1"
+        android:layout_marginTop="440dp"/>
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextView_1"
         android:text="真如国际中心"
         android:layout_marginTop="450dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="22sp"
-        android:textColor="#000000"/>
+        />
 
 </RelativeLayout>
