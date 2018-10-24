@@ -31,10 +31,9 @@
         android:drawableLeft="@drawable/icon_location"
         />
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
+        style="@style/View_1"
         android:layout_marginTop="120dp"
-        android:background="#D5D5D5"/>
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,129 +42,90 @@
         android:layout_marginTop="140dp"/>
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="180dp"
-        android:background="@drawable/bg_btn"
         android:text="北京"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="180dp"
-        android:background="@drawable/bg_btn"
-        android:gravity="center"
         android:text="上海"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="155dp"
         android:layout_marginTop="180dp"
-        android:background="@drawable/bg_btn"
         android:text="广州"
-        android:gravity="center"
-        android:textSize="22sp"
-        android:id="@+id/textView" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="230dp"
         android:layout_marginTop="180dp"
-        android:background="@drawable/bg_btn"
         android:text="深圳"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="230dp"
-        android:background="@drawable/bg_btn"
         android:text="成都"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="230dp"
-        android:background="@drawable/bg_btn"
         android:text="杭州"
-        android:gravity="center"
-        android:textSize="22sp"
-        android:id="@+id/textView2" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="155dp"
         android:layout_marginTop="230dp"
-        android:background="@drawable/bg_btn"
         android:text="南京"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="230dp"
         android:layout_marginTop="230dp"
-        android:background="@drawable/bg_btn"
         android:text="苏州"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="280dp"
-        android:background="@drawable/bg_btn"
         android:text="重庆"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="280dp"
-        android:background="@drawable/bg_btn"
         android:text="天津"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="155dp"
         android:layout_marginTop="280dp"
-        android:background="@drawable/bg_btn"
         android:text="武汉"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-        android:layout_width="70dp"
-        android:layout_height="35dp"
+        style="@style/TextView_2"
         android:layout_marginLeft="230dp"
         android:layout_marginTop="280dp"
-        android:background="@drawable/bg_btn"
         android:text="西安"
-        android:gravity="center"
-        android:textSize="22sp" />
+        />
 
     <TextView
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
@@ -182,10 +142,9 @@
         />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
+        style="@style/View_1"
         android:layout_marginTop="360dp"
-        android:background="#D5D5D5"/>
+        />
 
     <TextView
         android:id="@+id/text_4"
@@ -196,10 +155,9 @@
         android:textSize="22sp"
         />
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
+        style="@style/View_1"
         android:layout_marginTop="405dp"
-        android:background="#D5D5D5"/>
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -210,16 +168,14 @@
         />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
+        style="@style/View_1"
         android:layout_marginTop="445dp"
-        android:background="#D5D5D5"/>
+        />
 
     <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
+        style="@style/View_1"
         android:layout_marginTop="485dp"
-        android:background="#D5D5D5"/>
+        />
 
 
 
