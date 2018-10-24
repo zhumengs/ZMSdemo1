@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //mBtnSelectAddress = findViewById(R.id.btn_selectaddress);
+        mBtnSelectAddress = findViewById(R.id.btn_selectaddress);
         mBtnSelectAddress.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
