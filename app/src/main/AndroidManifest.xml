@@ -47,7 +47,9 @@
 
         <activity android:name=".SelectAddressActivity" />
         <activity android:name=".SelectCityActivity" />
-        <activity android:name=".NewAddressActivity"></activity>
+        <activity android:name=".NewAddressActivity" />
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".recyclerview.LinearRecyclerViewActivity"></activity>
     </application>
 
 </manifest>
