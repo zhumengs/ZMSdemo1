@@ -6,9 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.administrator.zms.recyclerview.LinearRecyclerViewActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button mBtnSelectAddress;
+    private Button mBtnRv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
 
-        });
+        }
+        );
+        mBtnRv = findViewById(R.id.btn_recyclerview);
+        mBtnSelectAddress.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this,LinearRecyclerViewActivity.class);
+                startActivity(intent);
+            }
+        }
+        );
 
 
        //push

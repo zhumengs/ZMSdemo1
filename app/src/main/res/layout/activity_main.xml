@@ -19,4 +19,10 @@
         android:layout_height="wrap_content"
         android:text="选择城市"/>
 
+    <Button
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView"/>
+
 </LinearLayout>
