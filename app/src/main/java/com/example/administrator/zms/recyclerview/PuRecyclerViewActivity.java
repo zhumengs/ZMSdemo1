@@ -35,5 +35,4 @@ public class PuRecyclerViewActivity extends AppCompatActivity {
             outRect.set(gap,gap,gap,gap);
         }
     }
-
 }
